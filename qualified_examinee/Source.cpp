@@ -47,7 +47,7 @@ int main()
 	printf("%d\n", count);
 	for (int i = 0; i < n; i++)
 	{
-		if (p[i].result == true) printf("%s\n", p[i].code);
+		if (p[i].score >= avg && p[i].result == true) printf("%s\n", p[i].code);
 	}
 
 	return 0;
